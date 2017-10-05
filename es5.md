@@ -200,7 +200,7 @@ A block statement, i.e., a sequence of statements surrounded by braces.
 
 ```js
 interface FunctionBody <: BlockStatement {
-    body: [ Directive | Statement ];
+    body: [ Statement ];
 }
 ```
 
